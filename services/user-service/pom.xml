@@ -5,21 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>cn.zurish.index12306</groupId>
-        <artifactId>index12306-all</artifactId>
+        <artifactId>index12306-services</artifactId>
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>index12306-services</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>index12306-user-service</artifactId>
 
-    <modules>
-        <module>aggregation-service</module>
-        <module>gateway-service</module>
-        <module>order-service</module>
-        <module>pay-service</module>
-        <module>ticket-service</module>
-        <module>user-service</module>
-    </modules>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
