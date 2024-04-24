@@ -1,6 +1,7 @@
 package cn.zurish.index12306.framework.starter.log.config;
 
 import cn.zurish.index12306.framework.starter.log.annotation.ILog;
+import cn.zurish.index12306.framework.starter.log.core.ILogPrintAspect;
 import org.springframework.context.annotation.Bean;
 
 /**
