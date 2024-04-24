@@ -1,5 +1,6 @@
 package cn.zurish.index12306.frameworks.starter.database.handler;
 
+import cn.zurish.index12306.frameworks.starter.distributedid.toolkit.SnowflakeIdUtil;
 import com.baomidou.mybatisplus.core.incrementer.IdentifierGenerator;
 
 /**
